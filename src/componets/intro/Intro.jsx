@@ -1,11 +1,12 @@
 import "./intro.scss"
+import React from "react"
 
 export default function Intro(){
     return(
         <div className="intro" id="intro">
             <div className="left">
                 <div className = "imgContainer">
-                    <img src="assets/face.jpg" alt="Picture of Myself"/>
+                    <img src="assets/face.jpg" alt="Melanie Sanchez"/>
                 </div>
             </div>
             <div className="right">

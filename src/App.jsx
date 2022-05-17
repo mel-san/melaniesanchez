@@ -5,7 +5,7 @@ import Works from "./componets/works/Works"
 import Contact from "./componets/contact/Contact"
 import Menu from "./componets/menu/Menu"
 import "./app.scss"
-import {useState} from 'react'
+import React, {useState} from 'react'
 
 
 

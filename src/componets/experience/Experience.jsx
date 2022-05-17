@@ -1,5 +1,5 @@
 import "./experience.scss"
-import { ReactComponent as WorkIcon } from "./work.svg";
+import React, { ReactComponent as WorkIcon } from "./work.svg";
 import { ReactComponent as SchoolIcon } from "./school.svg";
 
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';

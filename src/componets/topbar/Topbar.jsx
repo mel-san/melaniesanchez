@@ -1,5 +1,6 @@
 import "./topbar.scss"
-import {Person,MailOutline} from "@material-ui/icons"
+import React from "react"
+import {MailOutline, GitHub} from "@material-ui/icons"
 export default function Topbar({menuOpen,setMenuOpen}){
     return(
         <div className={"topbar " + (menuOpen && "active")}>
@@ -12,6 +13,8 @@ export default function Topbar({menuOpen,setMenuOpen}){
                     <div className="itemContainer">
                         <MailOutline className = "icon"/>
                         <span>melaniesanchez@nevada.unr.edu</span>
+                        <GitHub className = "icon"/>
+                        <span>mel-san</span>
                     </div>
 
                 </div>

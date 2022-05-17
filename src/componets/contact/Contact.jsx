@@ -1,4 +1,5 @@
 import "./contact.scss"
+import React from "react"
 import {ContactMail} from "@material-ui/icons"
 
 export default function Contact(){
