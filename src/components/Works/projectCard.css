@@ -1,0 +1,12 @@
+/* Add this CSS to your stylesheet */
+.projectImage {
+  object-fit: cover;
+  height: 5rem;
+  margin: 0.5rem;
+}
+.project-card {
+  width: calc(
+    50% - 1rem
+  ); /* 50% width for larger screens with a small margin between cards */
+  margin: 0.5rem;
+}

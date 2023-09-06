@@ -1,0 +1,75 @@
+#intro {
+  width: 100%;
+  max-width: 75rem;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+  padding: 2rem;
+  box-sizing: border-box;
+  display: flex; /* Use flexbox to control layout */
+  flex-wrap: wrap; /* Allow items to wrap to the next row when screen is small */
+  align-items: center; /* Vertically center items */
+}
+
+.bg {
+  z-index: -1;
+  object-fit: cover;
+  height: 60vh;
+  width: auto; /* Allow the image to scale proportionally */
+  flex: 1; /* Take up available space in the flex container */
+  order: 2; /* Set the order to 2 to move it to the right */
+}
+
+.introContent {
+  flex: 2; /* Take up more space in the flex container */
+  font-size: 3rem;
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hello {
+  font-size: 1.75rem;
+  font-weight: 100;
+  margin-bottom: 1rem;
+}
+
+.introName {
+  color: #0a9dff;
+}
+
+.introPara {
+  font-size: 1rem;
+  font-weight: 300;
+  letter-spacing: 1px;
+  margin-top: 1rem;
+}
+
+.btn {
+  background: gray;
+  margin: 1rem 0;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 2rem;
+}
+
+@media screen and (max-width: 880px) {
+  .bg {
+    order: 1; /* Move the image to the top for smaller screens */
+    height: 60vh; /* Allow the image to adjust its height based on content */
+  }
+
+  .introContent {
+    font-size: 4.5vw;
+  }
+
+  .hello {
+    font-size: 4.5vw;
+    margin-bottom: 0.5rem;
+  }
+
+  .introPara {
+    max-width: 100%; /* Allow the paragraph to take full width on small screens */
+  }
+}

@@ -1,0 +1,58 @@
+/* In your about.css */
+#about {
+  margin: 0 auto;
+  min-height: calc(100vh - 4rem);
+  width: 100vw;
+  max-width: 60rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0 1rem;
+}
+
+.aboutTitle {
+  margin: 1rem 0;
+  font-size: 3rem;
+}
+
+.aboutDesc {
+  padding: 1rem;
+  font-size: medium;
+  font-weight: 300;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem; /* Adjust the gap between images as needed */
+}
+
+/* In your about.css */
+/* ... (previous CSS styles) */
+
+/* Style individual images */
+.lakeTahoe,
+.unr,
+.techwise {
+  max-width: 100%; /* Make sure images don't exceed their container's width */
+  height: auto; /* Maintain the aspect ratio */
+  width: 33.33%; /* Set a percentage width for each image */
+}
+
+/* Add media queries for responsiveness */
+@media screen and (max-width: 768px) {
+  .image-container {
+    align-items: center;
+  }
+
+  /* Adjust image width for smaller screens */
+  .lakeTahoe,
+  .unr,
+  .techwise {
+    width: 30%; /* Full width on smaller screens */
+    margin-bottom: 1rem; /* Add spacing between stacked images */
+  }
+}
