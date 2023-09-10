@@ -9,6 +9,7 @@ const ProjectCard = ({
   projectName,
   imageUrl,
   description,
+  tools,
   linkText,
   link,
 }) => {
@@ -33,6 +34,12 @@ const ProjectCard = ({
           <Typography variant="body2" color="text.secondary">
             {description}
           </Typography>
+          <br />
+          {tools && ( // Conditionally render tools if it is not null
+            <Typography variant="body2" color="text.primary">
+              Tools: {tools}
+            </Typography>
+          )}
         </CardContent>
       </CardActionArea>
       <CardActions>

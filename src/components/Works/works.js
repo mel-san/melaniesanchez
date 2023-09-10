@@ -14,7 +14,8 @@ const projects = [
     name: 'Fashion Fairy',
     imageUrl: FashionFairy,
     description:
-      "Mobile app that uses both ChatGPT and DALL-E API to both suggest and display an AI-generative outfit, based off a the user's preferences",
+      "Mobile app that uses both ChatGPT and DALL-E API to both suggest and display an AI-generative outfit based on the user's preferences",
+    tools: 'Flutter, Flask, Firebase, ChatGPT API, DALL-E API, Gitlab',
     linkText: 'Source Code',
     link: 'https://gitlab.com/ynam1/techwise-project-3',
   },
@@ -23,6 +24,7 @@ const projects = [
     imageUrl: Orfeus,
     description:
       "Music generation site using OpenAI's Jukebox, transforming uploaded songs between genres within a social media-style platform",
+    tools: 'React.js, Flask, MySQL, MUI, Bootstrap, Github',
     linkText: 'Source Code',
     link: 'https://orfeus8.wixsite.com/orfeus',
   },
@@ -31,6 +33,7 @@ const projects = [
     imageUrl: TYSM,
     description:
       'Includes account creation, authentication, password encryption, search and filtering, cart functionality, order summary, and order history',
+    tools: 'React.js, MongoDB, NodeJS, ExpressJS, HTML5, CSS, Gitlab',
     linkText: 'Source Code',
     link: 'https://gitlab.com/ynam1/techwise-project-2',
   },
@@ -39,6 +42,7 @@ const projects = [
     imageUrl: Pacman,
     description:
       'Pacman clone featuring added elements like secret levels, diverse power-ups, and multiple game modes including classic, ghost play, and multiplayer',
+    tools: 'Python - Pygame, Gitlab',
     linkText: 'Source Code',
     link: 'https://gitlab.com/ynam1/techwise-project-1',
   },
@@ -47,6 +51,7 @@ const projects = [
     imageUrl: CodeForChange,
     description:
       'Hackathon: Teamed up to build an interactive website offering personalized Python coding lessons based on a personality quiz, connecting users with relevant charities for continued engagement',
+    tools: 'Go, Bootstrap, HTML5, CSS, Github',
     linkText: 'Source Code',
     link: 'https://github.com/elisacarrillo/vmware-codehouse',
   },
@@ -68,6 +73,7 @@ const Works = () => {
               projectName={project.name}
               imageUrl={project.imageUrl}
               description={project.description}
+              tools={project.tools}
               linkText={project.linkText}
               link={project.link}
             />

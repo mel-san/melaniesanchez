@@ -31,8 +31,8 @@ const Contact = () => {
       <div id="contact">
         <h1 className="contactPageTitle">Contact Me</h1>
         <span className="contactDesc">
-          Feel free to fill out the form below if you would like to discuss any
-          of my experience or work opportunities.
+          Feel free to fill out the form below if you would like to discuss work
+          opportunities or my experience.
         </span>
         <form className="contactForm" ref={form} onSubmit={sendEmail}>
           <input
