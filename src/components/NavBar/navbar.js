@@ -93,7 +93,7 @@ const Navbar = () => {
             to="about"
             spy={true}
             smooth={true}
-            offset={-50}
+            offset={-100}
             duration={500}
             className="listItem"
             onClick={() => setShowMenu(false)}
