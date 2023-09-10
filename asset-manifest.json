@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/melaniesanchez/static/css/main.7a190203.css",
-    "main.js": "/melaniesanchez/static/js/main.c464261e.js",
+    "main.js": "/melaniesanchez/static/js/main.b50e15e8.js",
     "static/media/profile_full.jpg": "/melaniesanchez/static/media/profile_full.721eb1d2ebda46930bed.jpg",
     "static/media/CodeForChange.png": "/melaniesanchez/static/media/CodeForChange.18de644cc2c59b91fee0.png",
     "static/media/TechWise.png": "/melaniesanchez/static/media/TechWise.434bbfe355dd18f42fbc.png",
@@ -20,10 +20,10 @@
     "static/media/UNR-logo.webp": "/melaniesanchez/static/media/UNR-logo.6de0b93165b2c6ac96d9.webp",
     "index.html": "/melaniesanchez/index.html",
     "main.7a190203.css.map": "/melaniesanchez/static/css/main.7a190203.css.map",
-    "main.c464261e.js.map": "/melaniesanchez/static/js/main.c464261e.js.map"
+    "main.b50e15e8.js.map": "/melaniesanchez/static/js/main.b50e15e8.js.map"
   },
   "entrypoints": [
     "static/css/main.7a190203.css",
-    "static/js/main.c464261e.js"
+    "static/js/main.b50e15e8.js"
   ]
 }
